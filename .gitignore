@@ -1,0 +1,23 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# Uploaded and processed user documents
+data/uploads/*
+data/processed/*
+
+# Keep folder placeholders
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+
+# Test and tool caches
+.pytest_cache/
+.streamlit/secrets.toml
